@@ -1,0 +1,5 @@
+com\study\controller\LookMes.class
+Test.class
+com\study\dao\User.class
+com\study\service\UserBean.class
+com\study\service\Person.class

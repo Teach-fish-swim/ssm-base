@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 命名空间，指获取sql数据的对象类 -->
+<!--1.当javaBean与数据库中的字段名不一致时可以使用别名 2.当有级联查询时，可以使用自定义封装规则 -->
+<mapper namespace="com.study.dao.User">
+	<select id="getUserBean" resultType="com.study.service.UserBean">
+		select *from first where
+		<if test="id!=null">
+			id=#{id}
+		</if>
+	</select>
+</mapper>

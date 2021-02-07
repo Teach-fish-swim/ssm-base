@@ -1,0 +1,32 @@
+整合ssm并配置的步骤及注意事项
+
+配置
+1.导包
+2.写配置
+3.进行测试
+
+
+注意：
+！！！！！！！！！！！！（错的可能性大）
+1.导包的时候注意版本问题，否则不能成功运行
+    解决方式：1）使用之前成功的module
+            2）使用其他人的pom.xml
+
+
+2.写配置的时候，当有第三方的bean时，一定要注意<properties>
+里面的属性名，不能写错，否则异常（参考之前的项目）
+3.启动spring相关配置文件的问题，最好一般都在web.xml中启动（
+通过前端控制器<init-param>将其一次性加载进来）；又或者通过<listener>
+ContextLoaderListener</listener>(同时通过<context-param>指定配置文件的位置)
+4.不要遗漏jar包，缺少运行的jar将不能运行，需要提前对项目运行所需要的jar包有一个认识
+
+
+5.环境搭建问题创建maven项目时，一般都需要添加archetype为*maven-web-app*的插件
+如果没有web.xml,可以将pom.xml中的jar改为war，然后再进行打包，还需要注意
+maven的生命周期方法
+
+
+6.配置静态资源两步：
+    1）.需要在web.xml中进行配置，详细见本例中
+    2）.需要在spring中<mvc:default-servlet-handler/>
+    写这个配置

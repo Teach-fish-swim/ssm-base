@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:28:04 +0800] "GET /maven-parent01 HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:28:04 +0800] "GET /maven-parent01/ HTTP/1.1" 500 8117 http-bio-8080-exec-3 68
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:28:04 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:30:58 +0800] "GET /maven-parent01 HTTP/1.1" 302 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:30:58 +0800] "GET /maven-parent01/ HTTP/1.1" 500 16620 http-bio-8080-exec-7 584
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:34:14 +0800] "GET /maven-parent01/ HTTP/1.1" 500 16620 http-bio-8080-exec-8 93
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:34:23 +0800] "GET /maven-parent01/ HTTP/1.1" 500 16620 http-bio-8080-exec-10 88
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:35:22 +0800] "GET /maven-parent01/look/mes HTTP/1.1" 500 16620 http-bio-8080-exec-3 69
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:44:59 +0800] "GET /maven-parent01 HTTP/1.1" 302 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:44:59 +0800] "GET /maven-parent01/ HTTP/1.1" 500 16620 http-bio-8080-exec-4 88
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:48:39 +0800] "GET /maven-parent01/ HTTP/1.1" 500 16620 http-bio-8080-exec-6 96
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:51:41 +0800] "GET /maven-parent01 HTTP/1.1" 302 - http-bio-8080-exec-9 0
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:51:42 +0800] "GET /maven-parent01/ HTTP/1.1" 500 16620 http-bio-8080-exec-9 1152
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:51:53 +0800] "GET / HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:51:57 +0800] "GET /maven-parent01 HTTP/1.1" 302 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [25/Jan/2021:21:51:57 +0800] "GET /maven-parent01/ HTTP/1.1" 500 16620 http-bio-8080-exec-4 159
